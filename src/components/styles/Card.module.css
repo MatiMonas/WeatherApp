@@ -6,7 +6,7 @@
   --azul-oscuro: #1658ac;
 }
 .primary {
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
 }
 .primary .container {
   /* position: absolute; */
@@ -92,6 +92,16 @@
 }
 a:hover {
   text-decoration: none;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 h4 {
@@ -263,7 +273,7 @@ p {
 @media (min-width: 768px) {
 }
 
-@media (min-width: 992px) {
+@media (min-width: 700px) {
   .container {
     height: 250px;
     width: 200px;
@@ -277,7 +287,7 @@ p {
 
 @media (min-width: 1190px) {
   .container {
-    height: 240px;
+    height: 250px;
   }
 
   .primary .container {
@@ -333,12 +343,10 @@ p {
   }
 
   .primary {
-    margin-top: 5.8%;
-    margin-bottom: 1%;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1000px) {
   .primary .container {
     margin-bottom: 0;
     width: 80%;

@@ -111,7 +111,7 @@ form {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1000px) {
   form {
     width: 90%;
     position: fixed;

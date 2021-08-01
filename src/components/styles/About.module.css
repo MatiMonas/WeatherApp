@@ -1,11 +1,13 @@
 .container {
-  position: absolute;
+  position: relative;
   top: 30%;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
   margin: auto;
   transform: scale(0.9);
+  width: 45%;
+  min-width: 20%;
 }
 
 .title {
@@ -38,6 +40,8 @@
   transform: translateX(-1.8rem);
   animation: fadeInX 1.45s ease 0.8s forwards;
   line-height: 2rem;
+
+  position: relative;
 }
 @keyframes fadeIn {
   from {

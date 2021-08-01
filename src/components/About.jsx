@@ -10,15 +10,17 @@ export default function About() {
         <p>Hello, i'm Matías Monastirsky! </p>
         <p>
           I'm 24 years old and i'm currently studying to become a Full Stack Web
-          Developoer at soyhenry.com
+          Developer at soyhenry.com.
         </p>
 
         <p>
           This is my first App created with React, as you can see it's a simple
-          Weather App
+          Weather App.
         </p>
-        <p>It was made with the openweathermap.org API</p>
+        <p>It was made with the openweathermap.org API.</p>
         <p>
+          If you would like to contact or chat with me, all my information is in
+          my linkedin{" "}
           <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/mat%C3%ADas-monastirsky-b0aa7a20b/"

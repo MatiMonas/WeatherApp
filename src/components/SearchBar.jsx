@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Route, Link } from "react-router-dom";
 import style from "./styles/SearchBar.module.css";
 
 export default function SearchBar(props) {
@@ -17,6 +17,7 @@ export default function SearchBar(props) {
         onSubmit={(e) => {
           //prevent default para que no se mande el formulario
           e.preventDefault();
+
           //lo que le estoy pasando a mi onSearch como propiedad es lo que escribo en mi input de busqueda
         }}
       >
@@ -30,9 +31,11 @@ export default function SearchBar(props) {
           className={style.searchBar}
         />
         <label htmlFor="search">Add city</label>
-        <button className={style.button} onClick={handleOnSearch}>
-          Search
-        </button>
+        <Link to="/">
+          <button className={style.button} onClick={handleOnSearch}>
+            Search
+          </button>
+        </Link>
       </form>
     </div>
   );

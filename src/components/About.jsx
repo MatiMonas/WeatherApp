@@ -7,9 +7,9 @@ export default function About() {
     <div className={styles.container}>
       <h4 className={styles.title}>About me</h4>
       <div className={styles.animated}>
-        <p>Hello, i'm Matías Monastirsky! </p>
+        <p>Hello, I'm Matías Monastirsky! </p>
         <p>
-          I'm 24 years old and i'm currently studying to become a Full Stack Web
+          I'm 24 years old and I'm currently studying to become a Full Stack Web
           Developer at soyhenry.com.
         </p>
 

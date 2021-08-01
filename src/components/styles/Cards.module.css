@@ -1,0 +1,42 @@
+/* posición de las tarjetas */
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  grid-gap: 3.5%;
+  white-space: nowrap;
+  position: absolute;
+  /* margin-right: 3%; */
+
+  width: 100%;
+
+  position: relative;
+  /* top: 1%; */
+  align-content: space-around;
+  flex-direction: row;
+  padding: 0.8%;
+}
+
+.container::-webkit-scrollbar {
+  height: 13px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #74256d34;
+  border-radius: 9999px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    height: 100%;
+  }
+}

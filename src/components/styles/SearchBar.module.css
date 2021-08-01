@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 50%;
+  margin-right: 10px;
+}
+
+form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 90%;
+  padding: 0.8em;
+  background-color: transparent;
+  border: 2px #01ffaaab solid;
+  border-right: none;
+  border-radius: 50px 0px 0px 50px;
+
+  color: white;
+  font-size: 1rem;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+label {
+  position: absolute;
+  left: 2.3%;
+  bottom: 13%;
+  font-size: 1em;
+  color: white;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  transform: translateY(-2.1em) scale(0.8);
+  color: aquamarine;
+}
+
+form {
+  width: 100%;
+}
+.searchBar:focus {
+  outline: none;
+}
+
+.button {
+  background-color: #01fff734;
+  border-radius: 0px 50px 50px 0px;
+  border: #01fff734;
+  color: white;
+  padding: 0.8em;
+  border: 2px solid #01ffaaab;
+  border-left: none;
+
+  transition: 0.2s ease;
+  font-size: 1rem;
+  backdrop-filter: blur(3px);
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #01ffaaab;
+  border-left: none;
+  backdrop-filter: blur(3px);
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+@media (max-width: 1307px) {
+  form {
+    width: 100%;
+  }
+  .searchBar {
+    width: 70%;
+  }
+
+  label {
+    left: 9.5%;
+    bottom: 13%;
+  }
+}
+
+@media (min-width: 1308px) and (max-width: 1527px) {
+  form {
+    width: 100%;
+  }
+  label {
+    left: 2.3%;
+    bottom: 14%;
+  }
+}
+
+@media (min-width: 1528px) {
+  form {
+    width: 100%;
+    bottom: 11%;
+  }
+}

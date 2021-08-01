@@ -1,0 +1,18 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+span {
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 9;
+}
+
+.search-bar {
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+.container {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: scale(0.9);
+}
+
+.title {
+  font-size: 2rem;
+  animation: fadeIn 3s ease;
+  margin-bottom: 30px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 2px;
+  background-color: aliceblue;
+  animation: underline 2s ease 0.25s forwards;
+  margin-top: 37px;
+}
+
+.animated {
+  opacity: 0;
+  transform: translateX(-1.8rem);
+  animation: fadeInX 1.45s ease 0.8s forwards;
+  line-height: 2rem;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(1.25rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInX {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes underline {
+  to {
+    width: 150px;
+  }
+}
+
+/* @keyframes line {
+  to {
+    opacity: 1;
+  }
+} */

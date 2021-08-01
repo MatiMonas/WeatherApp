@@ -110,3 +110,14 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 414px) {
+  .main-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

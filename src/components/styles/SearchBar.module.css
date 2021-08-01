@@ -110,3 +110,33 @@ form {
     bottom: 11%;
   }
 }
+
+@media (max-width: 414px) {
+  form {
+    width: 90%;
+    position: fixed;
+
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .container {
+    position: absolute;
+    bottom: 0;
+  }
+  .searchBar {
+    width: 500px;
+    font-size: 0.8rem;
+  }
+
+  label {
+    left: 4%;
+    bottom: 10%;
+    font-size: 0.8rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+}

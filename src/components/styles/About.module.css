@@ -24,6 +24,15 @@
   margin-top: 37px;
 }
 
+.linkedin {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+}
+
 .animated {
   opacity: 0;
   transform: translateX(-1.8rem);

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles/About.module.css";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -17,6 +18,15 @@ export default function About() {
           Weather App
         </p>
         <p>It was made with the openweathermap.org API</p>
+        <p>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/mat%C3%ADas-monastirsky-b0aa7a20b/"
+            target="_blank"
+          >
+            <FaLinkedin className={styles.linkedin} />
+          </a>
+        </p>
       </div>
     </div>
   );

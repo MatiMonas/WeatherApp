@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaLinkedin } from "react-icons/fa";
 import "./styles/Nav.css";
 import { Link } from "react-router-dom";
 import SearchBar from "../components/SearchBar.jsx";
@@ -15,6 +15,7 @@ function Nav({ onSearch }) {
         <span className="navbar-brand navbar-dark">Home</span>
       </Link>
       <SearchBar onSearch={onSearch} className="search-bar" />
+
       <Link to="/about">
         <span className="navbar-brand navbar-dark">About</span>
       </Link>

@@ -16,3 +16,8 @@ span {
 .search-bar {
   width: 100%;
 }
+
+@media (max-width: 414px) {
+  .search-bar {
+  }
+}

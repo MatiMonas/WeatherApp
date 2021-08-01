@@ -14,6 +14,7 @@ function Nav({ onSearch }) {
       <Link to="/">
         <span className="navbar-brand navbar-dark">Home</span>
       </Link>
+
       <SearchBar onSearch={onSearch} className="search-bar" />
 
       <Link to="/about">
